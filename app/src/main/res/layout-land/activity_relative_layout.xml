@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40sp"
+    android:gravity="fill_vertical">
+
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="60sp"
+        android:text="Toast" />
+
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/button_toast"
+        android:height="200sp"
+        android:background="@color/yellow"
+        android:text="0"
+        android:textColor="@color/purple_500"
+        android:textSize="150sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_toast"
+        android:height="60sp"
+        android:text="Count" />
+
+    <Button
+        android:id="@+id/goToLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="41dp"
+        android:layout_toEndOf="@+id/show_count"
+        android:text="Linear Layout" />
+
+    <Button
+        android:id="@+id/goToConstraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goToLinearLayout"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="23dp"
+        android:layout_toEndOf="@+id/show_count"
+        android:text="Constraint Layout" />
+
+</RelativeLayout>
