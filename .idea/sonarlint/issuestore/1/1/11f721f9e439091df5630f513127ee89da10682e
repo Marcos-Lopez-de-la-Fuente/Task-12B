@@ -1,11 +1,0 @@
-
-c
-java:S1192#"FDefine a constant instead of duplicating this literal "count" 3 times.(óï‚ê8†¢•À0
-p
-java:S1450"ZRemove the "buttonCount" field and declare it as a local variable in the relevant methods.(ó‡’¹
-u
-java:S1450"ZRemove the "buttonToast" field and declare it as a local variable in the relevant methods.(›Ö××ıÿÿÿÿ
-…
-java:S1450"cRemove the "goToConstraintLayout" field and declare it as a local variable in the relevant methods.(“‚·‡ùÿÿÿÿ8©ó •À0
-|
-java:S1450"aRemove the "goToRelativeLayout" field and declare it as a local variable in the relevant methods.(ó‰Ä§ıÿÿÿÿ
